@@ -1889,10 +1889,10 @@
 
 			.icon.style2:before {
 				display: block;
-				width: 1.25em;
-				height: 1.25em;
-				line-height: 1.25em;
-				font-size: 1.35em;
+				width: 2em;
+				height: 2em;
+				line-height: 2em;
+				font-size: 2em;
 			}
 
 			.icon.style2:hover {
