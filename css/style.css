@@ -59,7 +59,7 @@ label{
     -o-background-size: cover;
     -ms-background-size: cover;
     min-height: 770px;
-    background-attachment: fixed;
+    background-attachment: fixed;;
 }
 .w3_agile_logo{
 	float:left;
@@ -94,7 +94,7 @@ p.banner-p-w3ls {
     font-weight: 300;
     width: 38%;
     float: none;
-    text-align: center;
+    text-align: left;
     line-height: 30px;
 }
 .w3_agileits_social_media ul li {
@@ -374,7 +374,7 @@ li.dropdown.act a.w3_icons_act {
     text-transform: uppercase;
 }
 .modal-content h5 {
-    color: #000000;
+    color: #ecb731;
     padding-top: 15px;
     font-size: 21px;
 }
@@ -494,6 +494,15 @@ li.dropdown.act a.w3_icons_act {
     width: 100%;
 }
 /*-- //about --*/
+.column {
+    float: left;
+    width: 33.33%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 /*-- works --*/
 .work h5,.contact-grids h5 {
     color: #0086fe;
@@ -852,11 +861,10 @@ section.mid-w3layouts a:hover {
 }
 .bar-grids {
     padding: 0em;
-    width: 48.24%;
+    width: 100%;
 }
 .bargrids-left {
     margin-right: 40px;
-    text-align: center;
 }
 .bar-grids h4 {
     font-size: 1.6em;
@@ -866,6 +874,7 @@ section.mid-w3layouts a:hover {
     /* border-bottom: 1px dashed #ffffff; */
     padding-bottom: 0em;
     font-weight: 600;
+    text-align: center;
 }
 .bar-grids h4 span.glyphicon {
     margin-right: 0.8em;
@@ -886,6 +895,7 @@ section.mid-w3layouts a:hover {
 }
 .progress-bar { 
     background-color: #0086fe;
+    align-content: center;
 }
 .bar-grids h6 {
     font-size: 0.9em;
@@ -1749,11 +1759,10 @@ a.callbacks_nav.callbacks1_nav.prev {
 		margin: 5em 1.5em 0 0;
 	}
 	.bar-grids {
-		width: 48.1%;
+		width: 100%;
 	}
 	.bargrids-left {
 		margin-right: 35px;
-        text-align: center;
 	}
 	.agileits_service_grid_btm_left2 h5 {
 		font-size: 1.3em;
@@ -1863,6 +1872,7 @@ a.callbacks_nav.callbacks1_nav.prev {
 	}
 	.person-info-agileits-w3layouts {
 		padding: 3em 8em 0;
+        float: left;
 	}
 	.bar-grids {
 		width: 100%;
