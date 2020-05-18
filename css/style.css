@@ -861,7 +861,7 @@ section.mid-w3layouts a:hover {
 }
 .bar-grids {
     padding: 0em;
-    width: 100%;    
+    width: 100%;
 }
 .bargrids-left {
     margin-right: 40px;
@@ -1282,7 +1282,7 @@ a.agilebtn {
     width: 35px;
     height: 35px;
     border-radius: 50px;
-    padding: 6px 0 0 0px;
+    padding: 6px 0 0 30px;
     background: transparent;
     box-shadow:1px 1px 2px rgba(0, 0, 0, 0.9)!important;
 }
@@ -1807,7 +1807,6 @@ a.callbacks_nav.callbacks1_nav.prev {
 	}
 	.work h5, .contact-grids h5 {
 		font-size: 17px;
-		margin-bottom: 0.6em;
 	}
 	.work-right-w3-agileits h3 {
 		font-size: 20px;
@@ -1918,7 +1917,7 @@ a.callbacks_nav.callbacks1_nav.prev {
 	}
 	.contact-grids {
 		width: 100%;
-		float: center;
+		float: left;
 		margin-bottom: 2em;
 	}
 	.contact-grids h5 {
@@ -2134,7 +2133,6 @@ a.callbacks_nav.callbacks1_nav.prev {
 	}
 	.w3_agileits_social_media-footer ul li a i{
 		font-size:13px;
-        padding-left: 30%;
 	}
 }
 @media(max-width:667px){
