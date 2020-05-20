@@ -58,7 +58,7 @@ label{
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
-    min-height: 770px;
+    min-height: 1000px;
     position: relative;
 }
 .banner-image-w3layouts img {
